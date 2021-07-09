@@ -1,0 +1,6 @@
+public Employee updateEmployee(Employee employee){
+    employee.setName("Updated name");
+    employeeRepository.save(employee);
+
+    return employee;
+}
